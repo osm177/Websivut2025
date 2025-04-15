@@ -1,0 +1,1 @@
+Tänne tallennan kaikki työpaja WS02 harjoitustehtävät
