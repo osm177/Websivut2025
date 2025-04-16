@@ -3,7 +3,7 @@ p {
 }
 
 body {
-    background-color: lightgray; 
+    background-color: lime; 
 }
 
 h1 {
@@ -12,6 +12,13 @@ h1 {
 
 h1 {
     font-size: 2em;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   
 }
 
 div {
