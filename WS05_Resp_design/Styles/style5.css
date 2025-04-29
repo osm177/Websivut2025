@@ -174,7 +174,7 @@ input[type="submit"]:hover {
     }
 }
 
-.responsive-conainer {
+.responsive-container {
     display: flex;
     flex-wrap: wrap;
 
@@ -189,4 +189,43 @@ input[type="submit"]:hover {
     .column {
         flex: 100%;
     }
+}
+
+.responsive-image {
+    max-width: 50%;
+    height: auto;
+}
+
+.media-query-box {
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .media-query-box {
+        background-color: lightcoral
+    }
+}
+
+@media (min-width: 601px) {
+    .media-query-box {
+        background-color: lightblue;
+    }
+}
+
+.responsive-nav .nav-list{
+    display: flex;
+    list-style: none;
+}
+
+@media(max-width: 600px) {
+    .responsive-nav .nav-list {
+        display: none;
+    }
+
+
+.responsive-nav .menu-toggle {
+    display: block;
+}
+
 }

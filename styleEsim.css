@@ -1,0 +1,197 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header styling */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* Optional: Add a background color */
+  }
+  
+  header h1 {
+    font-size: 2rem; /* Adjust font size for responsiveness */
+    margin: 0;
+  }
+  
+  /* Responsive header font size for smaller screens */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.5rem; /* Smaller font size for smaller screens */
+    }
+  }
+  
+  /* Styling for responsive images */
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Styling for responsive container with columns */
+  .responsive-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  /* Responsive column layout for smaller screens */
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%; /* Columns stack vertically */
+    }
+  }
+  
+  /* Styling for media query box */
+  .media-query-box {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Background color changes for media query box based on screen size */
+  @media (max-width: 600px) {
+    .media-query-box {
+      background-color: lightcoral;
+    }
+  }
+  
+  @media (min-width: 601px) {
+    .media-query-box {
+      background-color: lightblue;
+    }
+  }
+  
+  /* General navigation styling */
+  .responsive-nav {
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #333; /* Navigation background color */
+  }
+  
+  /* Styling for the menu toggle button (hidden by default) */
+  .responsive-nav .menu-toggle {
+    display: none;
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+  }
+  
+  /* Styling for the navigation list */
+  .responsive-nav .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Styling for navigation list items */
+  .responsive-nav .nav-list li {
+    margin: 0;
+  }
+  
+  /* Styling for navigation links */
+  .responsive-nav .nav-list li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  /* Hover effect for navigation links */
+  .responsive-nav .nav-list li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+  
+  /* Responsive navigation styling for small screens */
+  @media (max-width: 600px) {
+    .responsive-nav .menu-toggle {
+      display: block; /* Show menu toggle button */
+    }
+  
+    .responsive-nav .nav-list {
+      display: none; /* Hide navigation list by default */
+      flex-direction: column;
+      background-color: #333;
+      width: 100%;
+    }
+  
+    .responsive-nav .nav-list.active {
+      display: flex; /* Show navigation list when active */
+    }
+  
+    .responsive-nav .nav-list li {
+      text-align: center;
+    }
+  }
+  
+  /* General styling for navigation links */
+  .nav-list a {
+    text-decoration: none;
+    color: #fff; /* Default link color */
+    padding: 5px 10px;
+    border-radius: 5px; /* Optional: Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover effect for navigation links */
+  .nav-list a:hover {
+    background-color: #555; /* Optional: Highlight on hover */
+  }
+  
+  /* Styling for the active navigation link */
+  .nav-list a.active {
+    background-color: #007BFF; /* Highlight color for active link */
+    color: #fff; /* Text color for active link */
+    font-weight: bold; /* Optional: Make the active link bold */
+  }
+  
+  /* Styling for the image section */
+  .image-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Space between columns */
+    padding: 20px;
+  }
+  
+  .image-column {
+    flex: 1; /* Each column takes equal space */
+    text-align: center;
+  }
+  
+  .image-column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Optional: Add rounded corners */
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Center-align the text */
+    padding: 20px; /* Add padding for spacing */
+    font-size: 0.9rem; /* Slightly smaller font size */
+    border-top: 3px solid #007BFF; /* Optional: Add a top border for separation */
+  }
