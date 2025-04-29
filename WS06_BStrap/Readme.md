@@ -1,0 +1,1 @@
+Tähän teen kaikki WS06 tehtävät
