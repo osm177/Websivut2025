@@ -12,7 +12,7 @@ body{
     padding: 0;
     background-color: white;
     color: #222;
-background-image: url('football-stadium.jpg');
+background-image: url('soccer.jpg');
 height: 100vh;
 background-size: cover;
 background-position: center;
@@ -24,11 +24,12 @@ main{
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #333;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
 p{
     margin-bottom: 1rem;
+    color:white;
 }
 
 .logo{
@@ -57,12 +58,13 @@ footer{
 
 .card p{
     font-size: 1rem;
-    color: #555;
+    color: white;
 }
 .card{
     margin: 1rem 0;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #333;
 }
 
