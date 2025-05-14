@@ -56,6 +56,7 @@ main{
     margin: 10px;
 }
 
+
 footer{
  width: 100%;
 margin-top: auto;
@@ -143,9 +144,4 @@ body{
     .text-section{
         max-height: 60%;
     }
-   .container2 {
-       display: flex;
-       flex-wrap: wrapper;
-       justify-content: space-between;
-   }
-
+   
